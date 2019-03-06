@@ -1,0 +1,32 @@
+.text-center {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.cinza {
+  color: #c9c9c9;
+  font-size: 15px;
+}
+
+.azul {
+  color: #7ca3d2;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.nome {
+  color: #7ca3d2;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+@media (min-width: 700px) {
+  .card-img-top {
+    min-height: 300px;
+    max-height: 300px;
+  }
+}
